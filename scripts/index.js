@@ -1,9 +1,15 @@
 const pictureContainer = document.getElementById('picture-container')
 
 document.addEventListener("DOMContentLoaded", function() {
-  // loadTwentyBeetles()
+  loadPix()
 });
 
-// function loadTwentyBeetles() {
-//   pictureContainer.innerHTML = `<img src="images/beetles.jpg" alt="20 beetles to count">`
-// }
+function loadPix() {
+  BEETLES.forEach(p => {
+    pictureContainer.innerHTML += imageDiv(p)
+  })
+}
+
+function listenPictures() {
+  
+}
