@@ -24,7 +24,7 @@ const BEETLES = [
 
 
 const imageDiv = (picPath) => {
-  return `<div class="image-tile shake">
+  return `<div class="image-tile shake-slow">
     <img src="${picPath}" alt"picture">
   </div>`
 }
